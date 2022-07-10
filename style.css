@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-benar,.top-header{
+    background-color: rgba(214, 206, 206, 0.834);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.logo{
+    display: flex;
+    margin: 35px 120px;
+    cursor: pointer;
+}
+.logo > h3{
+    margin: 23px 0 0 4px;
+}
+nav ul{
+    display: flex;
+    margin: 5px 65px;
+}
+nav ul li{
+    list-style: none;
+    margin: 30px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size:18px;
+    padding:8px 18px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+ .top-benar-btn{
+    color: white;
+    margin: 20px 28px;
+    padding: 8px 23px;
+    background-color:rgba(255, 85, 0, 0.987);
+    border: 1px solid rgba(255, 85, 0, 0.987);
+}
+/* Section top benar */
+.top-benar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.half{
+    width: 50%;
+    margin-left: 100px;
+    padding: 10px;
+}
+.benar-img{
+    width: 78%;
+    height: 333px;
+}
+.top-description{
+    margin: 10px;
+}
+.benar-title{
+    font-size: 4rem;
+    margin: 25px 15px;
+}
+.benar-details{
+    font-size: 17px;
+    margin: 16px;
+}
+.btn{
+    color: whitesmoke;
+    font-weight: bold;
+    border: 1px solid rgba(255, 85, 0, 0.987);
+    margin: 30px 25px;
+    padding: 13px 28px;
+    border-radius: 5px;
+    background-color:rgba(255, 85, 0, 0.987);
+    cursor: pointer;
+}
+.btn-color{
+    background-color: black;
+    border: 1px solid black;
+}
+.btn:hover{
+    background-color: black;
+    background-color: 1px solid black;
+}
+.btn-color:hover{
+    color: black;
+    border: gray;
+    background-color:rgba(239, 236, 234, 0.987);
+}
+/* Section Service */
+.service{
+    margin: 100px;
+}
+.service-title{
+    margin: 22px;
+    text-align: center;
+}
+.all-big{
+    font-size: 50px;
+    margin: 8px;
+}
+.mini-big{
+    font-size: 17px;
+    margin: 6px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.card{
+    text-align: center;
+    width:350px;
+    height: 300px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px gray;
+    margin: 18px;
+    padding: 12px;
+}
+.card-title{
+    color: red;
+}
+.card:hover{
+    margin-top:-6px;
+    border-top: 8px solid orange;
+}
+.card-link{
+    font-size: 19px;
+    margin: 10px;
+    padding: 3px;
+    color:#1be9d6;
+}
+div.more{
+    text-align: center;
+    margin: 12px;
+}
+.service-link{
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 35px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: black;
+}
+.service-link:hover{
+    background-color: rgba(224, 197, 197, 0.425);
+    color: black;
+}
+/* Section Fruit details */
+.fruits-details{
+    margin: 30px;
+}
+.orange-description{
+    margin: 20px;
+    text-align: center;
+}
+.details{
+    width: 675px;
+    margin: 10px 12px;
+ 
+}
+
+.fruit-pic{
+
+    width: 500px;
+    margin:20px 12px;
+    text-align: center;
+}
+.fruit-size{
+    width: 40%;
+    height: 220px;
+}
+.fruit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 60px;
+    padding: 12px;
+}
+.fruits-description{
+    font-size: 18px;
+    margin: 20px 0 40px 4px;
+}
+
+.fruit-title{
+    font-size: 22px;
+    margin: 18px 0 29px 4px;
+}
+/* Tristy Seation */
+.tristy-section{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/tasty-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px 0;
+}
+.tristy-title{
+    color: whitesmoke;
+    font-size: 5rem;
+    text-align: center;
+}
+.test-title{
+    text-align: center;
+    margin: 20px;
+}
+.test-dadu{
+    text-align: center;
+    margin-top: 30px;
+}
+.dadu-description{
+    text-align: center;
+    margin: 30px 20px;
+}
+.dadu-name{
+    font-size: 24px;
+    margin: 25px 0;
+}
+/* Section Contact */
+.contact{
+    margin: 100px 0 50px 100px;
+    background-image: url(/images/orange-dish.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+}
+.contact-title{
+margin: 15px;
+}
+.form-name input{
+    border:1px solid rgb(253, 251, 251);
+    font-size: 18px;
+    height: 50px;
+    width: 500px;
+    outline: none;
+    border-style: none;
+}
+.contact-form{
+    width: 500px;
+    margin: 20px;
+}
+.form-btn{
+    cursor: pointer;
+    font-weight: bold;
+    margin: 50px 0 0 10px;
+    padding: 12px 25px;
+    background-color:rgba(255, 85, 0, 0.987) ;
+    border: 1px solid rgba(255, 85, 0, 0.987);
+}
+.form-btn:hover{
+    color: whitesmoke;
+    background-color: black;
+    border: 1px solid black;
+}
+.form-name{
+    margin-left: 12px;
+}
+footer{
+    height: 120px;
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.down{
+    padding: 25px;
+}
