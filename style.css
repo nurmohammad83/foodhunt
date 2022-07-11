@@ -1,16 +1,13 @@
+ines (305 sloc) 5.89 KB
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
     /* font-family: 'Baloo Bhai 2', cursive;
-
     font-family: 'Niconne', cursive;
-
     font-family: 'Permanent Marker', cursive;
-
     font-family: 'PT Sans', sans-serif;
-
     font-family: 'Roboto', sans-serif; */
 
 }
@@ -229,7 +226,7 @@ div.more{
 .tristy-section{
     width: 100%;
     height: 500px;
-    background-image: url(../images/tasty-image.png);
+    background-image: url("/images/tasty-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
