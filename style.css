@@ -1,4 +1,4 @@
-ines (305 sloc) 5.89 KB
+
 *{
     margin: 0;
     padding: 0;
@@ -23,24 +23,24 @@ nav{
 }
 .logo{
     display: flex;
-    margin: 35px 120px;
+    margin: 20px 100px;
     cursor: pointer;
 }
 .logo > h3{
-    margin: 23px 0 0 4px;
+    margin: 15px 0 0 0;
 }
 nav ul{
     display: flex;
-    margin: 5px 65px;
+    justify-content: center;
+    align-items: center;
 }
 nav ul li{
     list-style: none;
-    margin: 30px;
 }
 nav ul li a{
     color: black;
     text-decoration: none;
-    font-size:18px;
+    font-size:15px;
     padding:8px 18px;
 }
 nav ul li a:hover{
@@ -50,7 +50,7 @@ nav ul li a:hover{
 }
  .top-benar-btn{
     color: white;
-    margin: 15px 22px;
+    margin: 10px 22px;
     padding: 8px 23px;
     background-color: rgba(255, 85, 0, 0.987);
     border: 1px solid rgba(255, 85, 0, 0.987);
@@ -66,12 +66,12 @@ nav ul li a:hover{
 .half{
     font-family: 'Baloo Bhai 2', cursive;
     width: 50%;
-    margin-left: 100px;
+    margin:25px 0 0 25px;
     padding: 10px;
 }
 .benar-img{
-    width: 78%;
-    height: 333px;
+    width: 80%;
+    height: 300px;
 }
 .top-description{
     font-family: 'Roboto', sans-serif;
@@ -79,12 +79,12 @@ nav ul li a:hover{
 }
 .benar-title{
     font-family: 'Baloo Bhai 2', cursive;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 25px 15px;
 }
 .benar-details{
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     margin: 16px;
 }
 .btn{
@@ -113,7 +113,7 @@ nav ul li a:hover{
 }
 /* Section Service */
 .service{
-    margin: 100px;
+    margin: 50px;
 }
 .service-title{
     font-family: 'Baloo Bhai 2', cursive;
@@ -127,8 +127,8 @@ nav ul li a:hover{
 }
 .mini-big{
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    margin: 6px;
+    font-size: 15px;
+    margin: 12px;
 }
 .container{
     display: flex;
@@ -139,11 +139,15 @@ nav ul li a:hover{
 .card{
     text-align: center;
     width:350px;
-    height: 315px;
+    height: 285px;
     box-sizing: border-box;
     box-shadow: 2px 2px 15px gray;
     margin: 18px;
     padding: 12px;
+}
+.card-img > img{
+    width: 60px;
+    height: 55px;
 }
 .card-title{
     font-family: 'Baloo Bhai 2', cursive;
@@ -155,10 +159,13 @@ nav ul li a:hover{
 }
 .card-link{
     font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    margin: 10px;
-    padding: 3px;
-    color:#1be9d6;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 15px;
+    color:#f70808;
+}
+.card-link:hover{
+    color: rgb(71, 16, 250);
 }
 div.more{
     text-align: center;
@@ -168,7 +175,6 @@ div.more{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     cursor: pointer;
-    margin: 10px;
     padding: 10px 35px;
     color: whitesmoke;
     font-weight: bold;
@@ -202,7 +208,7 @@ div.more{
 .fruit-size{
     font-family: 'Roboto', sans-serif;
     width: 40%;
-    height: 220px;
+    height: 200px;
 }
 .fruit-container{
     display: flex;
@@ -213,14 +219,14 @@ div.more{
 }
 .fruits-description{
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     margin: 20px 0 40px 4px;
 }
 
 .fruit-title{
     font-family: 'Baloo Bhai 2', cursive;
     font-size: 22px;
-    margin: 18px 0 29px 4px;
+  
 }
 /* Tristy Seation */
 .tristy-section{
@@ -254,9 +260,13 @@ div.more{
     text-align: center;
     margin: 30px 20px;
 }
+
 .dadu-name{
-    font-size: 24px;
-    margin: 25px 0;
+    font-size: 22px;
+    color: red;
+}
+h5{
+    color: rgb(239, 204, 3);
 }
 /* Section Contact */
 .contact{
