@@ -232,7 +232,7 @@ div.more{
 .tristy-section{
     width: 100%;
     height: 500px;
-    background-image: url("/images/tasty-image.png");
+    background-image: url("tasty-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -271,7 +271,7 @@ h5{
 /* Section Contact */
 .contact{
     margin: 100px 0 50px 100px;
-    background-image: url(/images/orange-dish.png);
+    background-image: url("orange-dish.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
